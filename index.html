@@ -10,7 +10,19 @@
 </style>
 <script defer src="js/matter.min.js"></script>
 <script defer src="js/explosion.js"></script>
+<style>
+  canvas{position: absolute;top: 0;left: 0;cursor: pointer;perspective: 3000px;}
+  .backword{z-index: -1;}
+  h1{position: absolute;top: 50%;left: 50%;}
+  h1:hover{color: red;}
+  section{width: 100%;height: 100vh;}
+</style>
 </head>
 <body>
+  <section class="content1">
+    <canvas id="myCanvas"></canvas>
+    <h1>test</h1>
+  </section>
+  <section class="content2"></section>
 </body>
 </html>
